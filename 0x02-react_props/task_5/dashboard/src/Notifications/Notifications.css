@@ -1,0 +1,18 @@
+.Notifications {
+    position: relative;
+    border: 1.2px dashed red;
+    padding: .2rem .3rem;
+    margin-bottom: 1.5rem;
+}
+
+.Notifications button > img {
+    width: 15px;
+}
+
+ul li[data-notification-type=urgent] {
+    color: red;
+}
+
+ul li[data-notification-type=default] {
+    color: blue;
+}
