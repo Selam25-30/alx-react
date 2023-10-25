@@ -1,0 +1,37 @@
+body {
+  position: relative;
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  color: #de283f;
+  gap: 1.2rem;
+  align-items: center;
+  border-bottom: 3px solid #de283f;
+  padding: .1rem;
+  margin: 0 1rem;
+}
+
+.App-logo {
+  width: 10vw;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem 0 0 2.5rem;
+  justify-content: center;
+}
+
+.App-footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 3px solid #de283f;
+  font-style: italic;
+  min-height: 50px;
+  width: 96vw;
+  text-align: center;
+  margin: 0 1rem;
+}
