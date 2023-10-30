@@ -1,0 +1,11 @@
+.App-body {
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem 0 0 2.5rem;
+    justify-content: center;
+}
+
+.App form {
+    display: flex;
+    gap: .6rem;
+}
